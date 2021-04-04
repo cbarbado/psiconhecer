@@ -1,0 +1,37 @@
+baseURL = "https://psiconecer.com/"
+# baseURL = "https://psiconecer.com/psiconhecer2"
+languageCode = "pr-br"
+title = "Psiconhecer"
+theme = "bootstrap"
+author = "Cesar Barbado"
+copyright = "Copyright &copy; Psiconhecer 2021"
+
+[[menu.main]]
+    name = "Sobre Nós"
+    weight = -110
+    pre = ""
+    url = "#about"
+
+[[menu.main]]
+    name = "Publicações"
+    weight = -100
+    pre = ""
+    url = "#public"
+
+[[menu.main]]
+    name = "Serviços"
+    weight = -90
+    pre = ""
+    url = "#services"
+
+[[menu.main]]
+    name = "Equipe"
+    weight = -80
+    pre = ""
+    url = "#team"
+
+[[menu.main]]
+    name = "Contato"
+    weight = -70
+    pre = ""
+    url = "#contact"

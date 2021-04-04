@@ -1,0 +1,10 @@
+    <div class="col-sm-12">
+        <div class="section-title">
+            <span>Recent Posts</span>
+        </div>
+    </div>
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range $paginator.Pages.ByDate.Reverse }}
+            {{ partial "post/card" . }}
+        {{ end }}
+    {{ partial "content/pagination" . }}

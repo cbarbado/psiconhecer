@@ -1,0 +1,34 @@
+<div class="post-meta">
+  <div class="post-meta-item">
+    <time datetime="{{ .Date.Format "01 Jan 2016" }}">{{ .Date.Format .Site.Data.Formats.date }}</time>
+    &middot; {{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}
+    &middot; {{ .WordCount }} {{ .Site.Data.Strings.words }}
+  </div>
+
+  {{ if isset .Params "categories" }}
+      {{ $categoriesLen := len .Params.categories }}
+      {{ if gt $categoriesLen 0 }}
+      <div class="post-meta-item">
+          <i class="fa fa-folder-open-o"></i>
+          {{ range $k, $v := .Params.categories }}
+          <a class="article-category-link" href="{{ (print "categories/" (. | urlize | lower) "/") | relURL }}">{{ . }}</a>
+          {{ if lt $k (sub $categoriesLen 1) }}&middot;{{ end }}
+          {{ end }}
+      </div>
+      {{ end }}
+  {{ end }}
+
+  {{ if isset .Params "tags" }}
+      {{ $tagsLen := len .Params.tags }}
+      {{ if gt $tagsLen 0 }}
+        <div class="post-meta-item">
+          <i class="fa fa-tags"></i>
+          {{ range $k, $v := .Params.tags }}
+          <a href="{{ (print "tags/" (. | urlize | lower) "/") | relURL }}">{{ . }}</a>
+          {{ if lt $k (sub $tagsLen 1) }}&middot;{{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+  {{ end }}
+
+</div>

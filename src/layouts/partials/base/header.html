@@ -1,0 +1,32 @@
+<!-- TODO: CHECK WHY IT BREAKS WHEN ADD FIXED TOP -->
+<!-- nav class="navbar navbar-expand-lg site-navbar {{ .Site.Params.navbarColorClass | default .Site.Data.Defaults.navbarColorClass }} {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }} fixed-top" id="mainNav" -->
+<nav class="navbar navbar-expand-lg site-navbar {{ .Site.Params.navbarColorClass | default .Site.Data.Defaults.navbarColorClass }} {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }} fixed-top" id="mainNav">
+  <div class="container">
+    <!-- a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a -->
+    <span>
+      <a class="navbar-brand js-scroll-trigger" href="{{ .Site.BaseURL | relURL}}"><img src="{{ "/assets/images/logo_psiconhecer_35px.png" | relURL }}" alt="Logo Psiconhecer"></a>
+      <a class="nav-item pl-4 pb-0" href="https://www.facebook.com/psiconhecer.curitiba/" target="blank"><i class="fab fa-facebook-square"></i></a>
+      <a class="nav-item ml-2 pb-0" href="https://www.instagram.com/psiconhecer_2021/" target="blank"><i class="fab fa-instagram-square"></i></a>
+      <a class="nav-item ml-2 pb-0" href="https://www.linkedin.com/company/psiconhecer/" target="blank"><i class="fab fa-linkedin"></i></a>
+      <a class="nav-item ml-2 pb-0" href="https://api.whatsapp.com/send?phone=5541991136979" target="blank"><i class="fab fa-whatsapp-square"></i></a>
+    </span>        
+
+    <button class="navbar-toggler" 
+    type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2"
+      aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
+      <ul class="nav navbar-nav ml-auto">
+        {{ $currentNode := . }} {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{{.URL | relURL }}">
+            {{ .Pre }}
+            <span class="text-capitalize">{{ .Name }}</span>
+          </a>
+        </li>
+        {{end}}
+      </ul>
+    </div>
+  </div>
+</nav>

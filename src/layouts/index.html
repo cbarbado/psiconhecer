@@ -1,0 +1,114 @@
+{{ partial "head" . }}
+<header>
+    <div class="container text-center">
+        <h1>Bem vindo ao site Psiconhecer</h1>
+        <h4>Conhecimento, bem estar e desenvolvimento humano.</h4>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Sobre Nós</h2>
+          <p class="lead">A Psicologia é uma ciência e uma prática profissional que pode contribuir muito para o desenvolvimento e o bem estar humano.</p>
+          <p class="lead">Aqui você vai encontrar publicações frequentes sobre vários assuntos relacionados a esse tema, como saúde, educação, comportamento e desenvolvimento humano, bem estar, tecnologia, sociedade, terapia, autoconhecimento e muitos outros.</p>
+          <p class="lead">Entre em <a class="js-scroll-trigger" href="#contact">contato</a> conosco para trazer suas dúvidas, opiniões e contribuições.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="public" class="bg-light-green">
+    <div class="container">
+      <div class="row">
+          {{ partial "content/recent-posts" . }}
+      </div>
+  </div>
+</section>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Serviços que nós oferecemos</h2>
+          <p class="lead">Nosso principal propósito é promover a divulgação de informações atualizadas sobre o mundo da Psicologia, como ciência e profissão, destacando como ela pode contribuir para o seu bem estar e das pessoas próximas a você.</p>
+          <p class="lead">Além disso, nossa equipe de profissionais presta os serviços de acompanhamento terapêutico, psicoterapia, e avaliação psicoeducacional.</p>
+          <p class="lead">Caso você tenha interesse por algum desses serviços, entre em <a class="js-scroll-trigger" href="#contact">contato</a> conosco.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="bg-light-green">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Nossa Equipe</h2>
+
+          <div class="mycard mycard--vertical">
+            <div class="mycard_img">
+              <img src={{ "/assets/images/Barbado.jpg" | relURL }} alt="">
+            </div>
+            <div class="mycard_content">
+              <div class="mycard_title-section">
+                <h5>Cesar Augusto Barbado</h5>
+                <hr>
+              </div>
+              <div class="mycard_bottom-section">
+                <p>Psicólogo pela PUCPR e Especialista em Psicologia Clínica: Terapias Cognitivo-Comportamentais pela Uninter.</p>
+                <p>CRP: 08/33.150</p>
+              </div>
+            </div>              
+          </div>
+
+          <div class="mycard mycard--vertical">
+            <div class="mycard_img">
+              <img src={{ "/assets/images/Jorge.jpg" | relURL }} alt="">
+            </div>
+            <div class="mycard_content">
+              <div class="mycard_title-section">
+                <h5>Jorge Lucas Franco de Jesus</h5>
+                <hr>
+              </div>
+              <div class="mycard_bottom-section">
+                <p>Psicólogo pela PUCPR. Atendimento clínico presencial e online.</p>
+                <p>CRP: 08/33.009</p>
+              </div>
+            </div>              
+          </div>
+
+          <div class="mycard mycard--vertical">
+            <div class="mycard_img">
+              <img src={{ "/assets/images/Victor.jpg" | relURL }} alt="">
+            </div>
+            <div class="mycard_content">
+              <div class="mycard_title-section">
+                <h5 class="card-title">Victor Damborowiski</h5>
+                <hr>
+              </div>
+              <div class="mycard_bottom-section">
+                <p>Psicólogo pela PUCPR. Pós-graduando em Aspectos Diagnósticos e Terapêuticos das Disfunções Sexuais pela Unyleyer.</p>
+                <p>CRP: 08/33.403</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contato</h2>
+          <p class="lead mb-0"><a href="mailto:contato@psiconhecer.com">contato@psiconhecer.com</a></p>
+          <p class="lead">(41) 9 9113-6979</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ partial "foot" . }}

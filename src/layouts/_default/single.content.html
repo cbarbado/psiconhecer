@@ -1,0 +1,27 @@
+<div class="mycard_content">
+  <h4 class="mycard_title publish-title">{{ partial "content/title" . }}</h4>
+  <hr class="publish-rule">
+  <div class="publish-info">
+    <small class="text-muted"><i class="far fa-user"></i>{{ .Params.Author }}<i class="fas fa-calendar-alt"></i><time datetime="{{ .Date.Format "02/01/2006" }}">{{ .Date.Format .Site.Data.Formats.date }}</time></small>                
+  </div>
+  <div class="card-text publish-text">  
+    {{ .Content }}
+  </div>
+  {{ if .Params.References }}
+    <div class="card-text publish-reference">
+      <p><strong>REFERÊNCIAS</strong></p>
+
+      {{ range .Params.References }}
+        <p><small>{{ . }}</small></p>
+      {{ end }}
+    </div>
+  {{ end }}
+  <hr>
+  <div>
+      <div class="space-between">
+          <span>
+          <a class="btn btn-outline-success btn-sm" href="{{"#public" | relURL}}">Voltar</a>
+          </span>
+      </div>
+  </div>
+</div>

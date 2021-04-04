@@ -1,0 +1,8 @@
+<div class="col-lg-8 mx-auto">
+    <h2>Publicações</h2>
+</div>
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range $paginator.Pages.ByDate.Reverse }}
+            {{ partial "post/card" . }}
+        {{ end }}
+    {{ partial "content/pagination" . }}

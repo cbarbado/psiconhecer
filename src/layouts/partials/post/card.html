@@ -1,0 +1,44 @@
+<div class="col-sm-12 col-lg-6 pb-3">
+  <div class="card mx-0 post-card h-100">
+    {{ if and (isset .Params "thumbnail") (not (eq .Params.thumbnail "")) }}
+      <a href="{{ .Permalink }}" itemprop="url">
+        {{if or (in (substr .Params.thumbnail 0 7) "http://") (in (substr .Params.thumbnail 0 8) "https://")}}
+          <img src="{{ .Params.thumbnail }}" class="card-img-top">
+        {{ else if  (in (substr .Params.thumbnail 0 1) "/" ) }}
+          <img src="{{ .Params.thumbnail | relURL }}" class="card-img-top">
+        {{ else }}
+          <img src="{{ .Permalink }}{{ .Params.thumbnail }}" class="card-img-top">
+        {{end}}
+      </a>
+    {{ end }}
+
+    <div class="card-body pb-0">
+      <p class="card-title">
+        <a href="{{ .Permalink | relURL }}">{{ if .IsPage }}{{ if .Draft }}{{ .Site.Data.Strings.draft }} :: {{ end }}{{ end }}{{ .Title }}</a>
+      </p>
+      <hr>
+      <p class="card-text">
+        {{ if .IsPage }}
+          {{ if .Summary }}
+            {{ .Summary | markdownify | truncate 600 }}
+          {{ else }}
+            {{ .Description | truncate 160}}
+          {{ end }}
+        {{ end }}
+      </p>
+    </div>
+    <div class="card-footer recentpost">
+      <small class="text-muted">
+        <hr class="mt-0 mb-2">
+        <span>
+          <i class="far fa-clock ml-0 mr-1"></i>{{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}          
+          <i class="far fa-user ml-2 mr-1"></i>{{ .Params.Author }}
+          <i class="fas fa-calendar-alt ml-2 mr-1"></i><time datetime="{{ .Date.Format "02/01/2006" }}">{{ .Date.Format .Site.Data.Formats.date }}</time>
+        </span>
+        <span class="float-right">
+          <a class="btn btn-outline-success btn-sm" href="{{ .Permalink | relURL }}">Saiba Mais</a>
+        </span>
+      </small>
+    </div>  
+  </div>
+</div>

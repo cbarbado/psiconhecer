@@ -1,0 +1,16 @@
+{{ partial "head" . }}
+<section id="public" class="bg-light-green pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="mycard" id="pub0001">
+          <!-- End Fixed Left Share -->
+          {{ .Render "single.hat" }}
+          {{ .Render "single.content" }}
+          {{ .Render "single.boot" }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ partial "foot" . }}
+</section>

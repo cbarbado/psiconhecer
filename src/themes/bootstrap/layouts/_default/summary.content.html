@@ -1,0 +1,9 @@
+<div class="article-body">
+  {{ if .IsPage }}
+    {{ if .Description }}
+      {{ .Description | markdownify }}
+    {{ else }}
+      {{ .Summary }}
+    {{ end }}
+  {{ end }}
+</div>
