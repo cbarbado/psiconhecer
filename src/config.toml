@@ -5,6 +5,7 @@ title = "Psiconhecer"
 theme = "bootstrap"
 author = "Cesar Barbado"
 copyright = "Copyright &copy; Psiconhecer 2021"
+disableKinds = ["taxonomy", "term", "section"]
 
 [[menu.main]]
     name = "Sobre Nós"
