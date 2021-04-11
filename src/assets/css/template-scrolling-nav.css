@@ -94,6 +94,7 @@ a {
 
 .card-img, .card-img-bottom, .card-img-top {
     height: 180px;
+    object-fit: cover;
 }
 .post-card p.card-title {
     font-weight: 400;
@@ -142,7 +143,7 @@ a {
 
 .mycard_img img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     -o-object-fit: cover;
     object-fit: cover;
 }

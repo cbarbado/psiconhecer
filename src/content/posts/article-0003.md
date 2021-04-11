@@ -2,7 +2,7 @@
 author = "Jorge Lucas"
 title = "Pandemia, fechamento das escolas e Homeschooling"
 date = "2021-03-11"
-thumbnail = "/assets/images/article-0003.jpg"
+thumbnail = "/assets/images/thumb-0003.jpg"
 banner = "/assets/images/article-0003.jpg"
 description = "Atualmente o Homeschooling ainda não é regulamentado no Brasil, embora muitas famílias adotem-no no seu dia a dia. São muitas as ponderações a se fazer a respeito desse novo modelo."
 summary = "As medidas protetivas contra a disseminação do novo coronavírus reacendem debates acalorados referentes à implementação de novos modelos de ensino, incluindo o Homeschooling, no qual pais e mães optam por realizar o ensino dos filhos sem recorrer às escolas. Atualmente, tal modelo ainda não é regulamentado no Brasil, embora muitas famílias adotem-no no seu dia a dia. O fato é que são muitas as ponderações a se fazer a respeito desse novo modelo."

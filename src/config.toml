@@ -1,5 +1,10 @@
-baseURL = "https://psiconecer.com/"
-# baseURL = "https://psiconecer.com/psiconhecer2"
+# PRODUCTION
+baseURL = "https://psiconhecer.com/"
+
+# STAGING
+# baseURL = "https://psiconhecer.com/psiconhecer2"
+# baseURL = "https://192.168.1.7/psiconhecer2"
+
 languageCode = "pr-br"
 title = "Psiconhecer"
 theme = "bootstrap"

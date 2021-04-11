@@ -1,8 +1,8 @@
 +++
 author = "Cesar Barbado"
-title = "Precisamos falar sobre o ensino remoto."
+title = "Precisamos falar sobre o ensino remoto"
 date = "2021-03-18"
-thumbnail = "/assets/images/article-0004.jpg"
+thumbnail = "/assets/images/thumb-0004.jpg"
 banner = "/assets/images/article-0004.jpg"
 description = "De repente, pais, alunos e professores tiveram que migrar para o ensino remoto. Mas só transpor a sala de aula para as telas dos aparelhos eletrônicos não vai funcionar. Precisamos pensar em um novo modo de se fazer educação."
 summary = "De repente, pais, alunos e professores se depararam com a necessidade de migrar para o modelo remoto de ensino. E como se faz isso? Não basta transpor a sala de aula para as telas dos dispositivos eletrônicos. Não vai funcionar. Precisamos pensar em um novo modo de se fazer educação. E o que poucas pessoas sabem é que a escola nem sempre foi o principal local onde acontece o ensino."

@@ -2,7 +2,7 @@
 author = "Victor Damborowiski"
 title = "Procrastinação, vai aderir?"
 date = "2021-03-25"
-thumbnail = "/assets/images/article-0005.jpg"
+thumbnail = "/assets/images/thumb-0005.jpg"
 banner = "/assets/images/article-0005.jpg"
 description = "Você já parou para se perguntar em quantas vezes na vida você deixou de estudar um conteúdo muito importante simplesmente por preguiça?"
 summary = "Você já parou para se perguntar em quantas vezes na vida você deixou de estudar um conteúdo muito importante simplesmente por preguiça? Ou mesmo deixou de ir ao supermercado da esquina por estar sem ânimo de caminhar um pouquinho? Provavelmente, muitos de nós já vivemos essas e muitas outras situações parecidas. E então, surge a questão: será que isso é normal? Eu sou um vadio? Meu filho(a) é um vagabundo(a)? Tentaremos passar sobre essas perguntas de forma breve a seguir."

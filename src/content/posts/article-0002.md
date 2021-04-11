@@ -2,7 +2,7 @@
 author = "Cesar Barbado"
 title = "Porque as pessoas jogam videogame?"
 date = "2021-03-04"
-thumbnail = "/assets/images/article-0002.jpg"
+thumbnail = "/assets/images/thumb-0002.jpg"
 banner = "/assets/images/article-0002.jpg"
 description = "Os jogos não são divertidos por natureza. Eles são projetados por um profissional chamado de game designer, para atrair e engajar as pessoas de propósito."
 summary = "Pouca gente sabe que os jogos não são divertidos por natureza, e que eles são projetados de propósito para serem divertidos. Para isso existe um profissional chamado de game designer que, dentre outras matérias, estuda psicologia humana e neurociência, para saber projetar os jogos que tenham o máximo de atratividade e engajamento para as pessoas."

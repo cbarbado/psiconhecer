@@ -2,7 +2,7 @@
 author = "Victor Damborowiski"
 title = "Como ajudar quem vive com HIV na pandemia de COVID-19"
 date = "2021-02-25"
-thumbnail = "/assets/images/article-0001.jpg"
+thumbnail = "/assets/images/thumb-0001.jpg"
 banner = "/assets/images/article-0001.jpg"
 description = "Informações e cuidados que as pessoas com HIV ou AIDS e seus conhecidos precisam adotar para proteger essa população, nesse momento tão delicado de nossa história."
 summary = "Com o início da pandemia de COVID-19, no início de 2020 grande parte das instituições de saúde públicas, veículos de impressa e redes privadas de saúde iniciaram uma campanha massiva de prevenção e combate contra o COVID-19 e seus efeitos. Com o objetivo de ajudar a comunidade das pessoas que vivem com HIV ou AIDS e colaboradores esse estudo busca trazer informações básicas de cuidados que as pessoas que vivem com HIV ou AIDS e seus conhecidos precisam adotar para potencializar a proteção dessa população, nesse momento tão delicado de nossa história recente."

@@ -1,8 +1,8 @@
 +++
 author = "Jorge Lucas"
-title = "Ensino Remoto: 7 dicas para organizar seus estudos."
+title = "Ensino Remoto: 7 dicas para organizar seus estudos"
 date = "2021-04-01"
-thumbnail = "/assets/images/article-0006.jpg"
+thumbnail = "/assets/images/thumb-0006.jpg"
 banner = "/assets/images/article-0006.jpg"
 description = "Com a pandemia de Covid-19 e as dificuldades por ela acarretadas, muitas pessoas têm de lidar com mais um desafio: como conciliar os estudos à nova rotina?"
 summary = "Diante da pandemia por Covid-19 e todas as dificuldades por ela acarretadas, muitas pessoas têm de lidar com ainda mais um grande desafio: como conciliar os estudos à nova rotina? Lidar com todas as distrações domésticas, gerenciar os horários, cumprir tarefas e, ainda assim, manter o foco nos livros parece um grande sacrifício, entretanto, com algumas dicas é possível organizar os estudos de maneira simples e eficaz. Se você é um estudante que busca aprimorar seu desempenho, ou se tem filhos e encontra dificuldades para se adaptar à nova rotina, confira estas 7 dicas."

@@ -1,13 +1,14 @@
-<div class="col-sm-12 col-lg-6 pb-3">
+<!-- PREVIOUS div class="col-sm-12 col-lg-6 pb-3" -->
+<div class="col-sm-12 col-md-9 col-lg-6 pb-3 mx-auto">
   <div class="card mx-0 post-card h-100">
-    {{ if and (isset .Params "thumbnail") (not (eq .Params.thumbnail "")) }}
+    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
       <a href="{{ .Permalink }}" itemprop="url">
-        {{if or (in (substr .Params.thumbnail 0 7) "http://") (in (substr .Params.thumbnail 0 8) "https://")}}
-          <img src="{{ .Params.thumbnail }}" class="card-img-top">
-        {{ else if  (in (substr .Params.thumbnail 0 1) "/" ) }}
-          <img src="{{ .Params.thumbnail | relURL }}" class="card-img-top">
+        {{if or (in (substr .Params.banner 0 7) "http://") (in (substr .Params.banner 0 8) "https://")}}
+          <img src="{{ .Params.banner }}" class="card-img-top">
+        {{ else if  (in (substr .Params.banner 0 1) "/" ) }}
+          <img src="{{ .Params.banner | relURL }}" class="card-img-top">
         {{ else }}
-          <img src="{{ .Permalink }}{{ .Params.thumbnail }}" class="card-img-top">
+          <img src="{{ .Permalink }}{{ .Params.banner }}" class="card-img-top">
         {{end}}
       </a>
     {{ end }}

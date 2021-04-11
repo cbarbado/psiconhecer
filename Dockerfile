@@ -2,7 +2,8 @@
 # docker build -t hugo .
 # docker run -it -p 1313:1313 -v ${pwd}/src:/app hugo
 
-# hugo server -D --bind 0.0.0.0
+# hugo server -F --bind 0.0.0.0
+# hugo -F
 
 # Base image
 FROM alpine
