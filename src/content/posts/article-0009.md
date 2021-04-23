@@ -1,34 +1,34 @@
 +++
 author = "Cesar Barbado"
-title = "Construindo a nossa história, do futuro para o passado"
-date = "2021-04-29"
-thumbnail = "/assets/images/thumb-0010.jpg"
-banner = "/assets/images/article-0010.jpg"
-description = "Vamos ver como a Psicologia Existencialista de Jean-Paul Sartre defende que é o futuro quem determina como será o nosso passado."
-summary = "Temos a plena certeza que a nossa história acontece do passado para o futuro. Neste texto vamos ver como a Psicologia Existencialista de Jean-Paul Sartre defende justamente o contrário: que é o futuro quem determina como será a nossa história."
+title = "Como a gente vira gente"
+date = "2021-04-22"
+thumbnail = "/assets/images/thumb-0009.jpg"
+banner = "/assets/images/article-0009.jpg"
+description = "Vamos discutir como um ser humano se forma, como ele constrói a sua personalidade."
+summary = "Muitas pessoas se perguntam como um ser humano se forma, como ele constrói a sua personalidade. Existem várias maneiras diferentes e não excludentes de se entender esse fenômeno. Neste texto explicamos brevemente como uma das abordagens modernas da psicologia aborda esse tema."
 tags = [
     "desenvolvimento",
     "personalidade",
     "crescimento",
-    "existencialismo",
-    "Sartre"
+    "educação",
 ]
 references = [
-"TEIXEIRA, J. A. C. Introdução às abordagens fenomenológica e existencial em psicopatologia (II): As abordagens existenciais. Análise Psicológica, v. 15, n. 2, p. 195-205, 1997.",
-"SCHNEIDER, D. R. Sartre e a psicologia clínica. Editora da UFSC, 2011."
+"AFFONSO, C. A Liberdade, assistida, de adolescentes em cumprimento de medida socioeducativa e seus fatores de proteção - Uma análise sob o olhar da Psicologia Sócio-Histórica. 2007. 143 f. Dissertação (Mestrado em Psicologia) - Pontifícia Universidade Católica de São Paulo, São Paulo, 2007.",
+"BOCK, A. M. B. Formação do psicólogo: um debate a partir do significado do fenômeno psicológico. Psicologia: Ciência e Profissão, Brasília, vol.17, n.2, 1997."
 ]
 +++
 
-Dentre os diversos temas abordados pelo filósofo existencialista Jean-Paul Sartre encontra-se também a psicologia. De acordo com essa linha de pensamento, a existência humana precede a essência humana. Explicando melhor, não nascemos predeterminados a sermos especificamente qualquer coisa que seja. Cabe a nós mesmos construir quem somos. Somos totalmente responsáveis por inventar a nossa vida, a partir das escolhas que fazemos. Estamos condenados a ser livres pois, mesmo quando optamos por não fazer escolha nenhuma, ainda assim esta é uma escolha que fazemos.
+A psicologia é uma ciência relativamente recente que, em sua busca pelo entendimento da subjetividade humana, propõe diversas maneiras, diferentes e não excludentes, de se conceber a construção do sujeito. Dentre essas maneiras há a Psicologia Sócio-Histórica, uma abordagem que propõe uma concepção de sujeito baseada nas ideias do materialismo histórico e dialético. Segundo ela, o sujeito se forma em uma relação ativa, complexa e não linear dele com seu meio social. Essa relação dialética é uma relação bilateral onde o sujeito também altera a sua sociedade, apropriando-se do seu processo histórico e de sua cultura, e torna-se sujeito a partir dessa relação.
 
-É importante notar que não se trata de uma liberdade absoluta, uma vez que somos seres no mundo, e este mundo repleto de possibilidades também nos impõe tantas outras impossibilidades. Trata-se sim da liberdade de vontade. Liberdade para nos projetarmos em direção ao futuro que queremos, dentro do contexto que a realidade (e a sociedade) nos impõem.
+Nesta visão, cada pessoa é vista como um ser construído historicamente pelas suas relações e condições socioculturais. Essa constituição do sujeito é determinada por sua condição social, cultural e histórica, ao mesmo tempo em que ele mesmo constrói a sua sociedade, cultura e história. É uma via de mão dupla. Desta forma, o sujeito é visto não como mero resultado do meio, mas como autor ativo de si mesmo, sempre inseparável da sua relação dialética com o meio em que está inserido, e sobre o qual também atua como agente de transformação da sua realidade objetiva.
 
-Desta forma, não somos seres prontos e acabados, mas sim seres em um processo constante de totalização. Nossos comportamentos são expressões de um projeto existencial de autocriação e de construção do nosso próprio destino. Por mais que a realidade do ambiente e as demais pessoas possam impor limites às nossas possibilidades de ser e agir no mundo, podemos sempre tentar superar essa situação, nos projetando para além dela, transcendendo essa condição.
+Essa condição humana implica em um limite de possibilidades, uma vez que esse sujeito em constante formação está inserido em uma época, em uma sociedade e em uma cultura de onde retira suas possibilidades e impossibilidades de ser. Portanto, além de entender que o sujeito é autor de si mesmo, indissociável da sua história e da sua realidade objetiva, é importante ressaltar que não há uma autonomia absoluta: essa sua relação com a objetividade implica também na imposição de limites às suas possibilidades e escolhas.
 
-Outro aspecto importante a se considerar é a temporalidade. Todas as nossas ações no mundo acontecem ao longo do tempo. À nossa frente existe um horizonte de possibilidades. A cada instante escolhemos concretizar uma dessas possibilidades: agimos no mundo a partir de uma escolha que é feita dentro de todas as possibilidades de ação (ou não ação) que temos diante de nós. Assim que concretizamos essa escolha, ela passa a fazer parte da nossa história, e ela se junta ao universo de todas as outras escolhas que fizemos, em nosso passado. Imutável. É o conjunto destas escolhas históricas, feitas ao longo da nossa existência, que define quem nós somos.
+De uma maneira mais detalhada, a concepção de ser humano da Psicologia Sócio-Histórica está fundada em cinco princípios básicos:
+1. não existe **natureza humana**, o sujeito tem origem na sua realidade social e não há sentido em ser pensado fora dela;
+1.	existe a **condição humana**, sem nenhum determinante a priori que não possa ser suplantado na medida em que o ser humano se constrói na relação com os outros;
+1.	o sujeito é um ser ativo, social e histórico que se constrói atuando sobre o mundo com os outros sujeitos em um movimento permanente;
+1.	o sujeito é criado por ele mesmo. Não há natureza humana pronta. Sua única aptidão é desenvolver várias aptidões no contato com a cultura e com outras pessoas. O sujeito se constitui e aprende a ser sujeito, adquirindo um conjunto de significados e uma visão de mundo, desenvolvendo assim sua consciência e atuando sobre o mundo;
+1.	o objeto da psicologia é o sujeito concreto, inserido na sociedade, compreendendo-se a sua singularidade, inserida na sociedade e no tempo, que determina quem ele é e lhe dá sentido.
 
-E você diria: então é óbvio que a minha história é construída do passado para o futuro! E é aí que está a pegadinha: é assim que você *percebe* a construção da sua história, mas não é bem assim que ela *acontece*. Repare que, no momento em que você escolhe uma dentre as infinitas possibilidades que se apresentam diante de você, isto não é feito ao acaso. Há um propósito, uma meta, um objetivo seu que guia essa escolha. Esse é o seu projeto de ser.
-
-Esse seu projeto de ser é fundamental para que, dentre tudo aquilo que você *pode fazer*, você escolha aquilo que *realmente faz*. Nesse processo você se lança no futuro, na direção d’aquilo que escolhe para si. A partir do presente você se lança no futuro, na direção da sua escolha. Assim que a sua ação em direção ao futuro se concretiza na realidade, ela passa imediatamente a constituir o seu passado.
-
-Nesse movimento de síntese entre futuro, presente e passado, você tem a nítida impressão de que é aquilo que você fez no passado que constitui a sua história. Nós esquecemos que, quando esse passado ainda era o presente, houve essa fagulha que nos lançou em direção a uma opção de futuro. Só então, o que era uma possibilidade, se tornou uma atitude concreta no mundo, e virou o nosso passado imutável. É assim então que, nos lançando constantemente e intencionalmente no futuro, definimos quem fomos e quem somos.
+Nesta visão o sujeito não é determinado por uma condição inata. Ele se constrói historicamente, inserido em uma relação dialética com sua realidade concreta, ao mesmo tempo em que é capaz de modificá-la, dentro de limites de possibilidades e impossibilidades. É sabendo que o humano só se constitui à medida que pode apreender as experiências históricas e culturais já existentes que podemos então valorizar e ressaltar as conquistas da humanidade e, a partir delas, fortalecer nossa possibilidade de relação transformadora com o social.
