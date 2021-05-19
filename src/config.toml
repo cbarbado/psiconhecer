@@ -11,6 +11,7 @@ theme = "bootstrap"
 author = "Cesar Barbado"
 copyright = "Copyright &copy; Psiconhecer 2021"
 disableKinds = ["taxonomy", "term", "section"]
+paginate = 24
 
 [[menu.main]]
     name = "Sobre Nós"
