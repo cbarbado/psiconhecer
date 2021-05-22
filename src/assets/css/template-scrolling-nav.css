@@ -221,6 +221,13 @@ a {
 .publish-reference {
     margin-top: 40px;
 }
+
 .publish-reference p {
     margin-bottom: 0px;
+}
+
+.gmap {
+    border-width: 5px;
+    border-color: #D2E7D6;
+    border-style: solid;
 }
